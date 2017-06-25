@@ -41,7 +41,7 @@ html {
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
@@ -80,19 +80,20 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3rem;
+  /*font-family: "Abril Fatface", serif; */
+  font-size: 1.5rem;
 }
 
 .sidebar-about .lead {
-  font-size: .8rem;
+  font-size: .9rem;
 }
 
 .sidebar-about .profile-picture {
   margin: 0 auto;
   border-radius: 50%;
-  border: 2px solid #5b8da2;
-  max-width: 5rem;
+/*  border: 2px solid #5b8da2; */
+  max-width: 8rem;
+  margin-bottom: 2rem;
 }
 
 /* Sidebar nav */
@@ -147,14 +148,20 @@ a.sidebar-nav-item.active:focus {
  * with a 25%-wide `.sidebar`.
  */
 
+.post {
+   padding-top: 2rem;
+}
+
+
 .content {
-  padding-top:    4rem;
+/*  padding-top:    4rem;*/
+  padding-top:    0rem;
   padding-bottom: 4rem;
 }
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
+    max-width: 52rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
@@ -162,7 +169,7 @@ a.sidebar-nav-item.active:focus {
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
+    margin-left: 20rem;
     margin-right: 4rem;
   }
 }
